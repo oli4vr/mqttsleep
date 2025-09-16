@@ -30,28 +30,34 @@ To build the `mqttwake` and `mqttsleep` programs, you need to have the `mosquitt
 
 ### Steps
 
-1. **Install dependencies:**
+**Install dependencies:**
    ```sh
    sudo apt-get install libmosquitto-dev
    ```
 
-2. **Clone the repository:**
+**Clone the repository:**
    ```sh
    git clone https://github.com/oli4vr/mqttsleep.git
    cd mqttsleep
    ```
 
-3. **Build the programs:**
+**Build the programs:**
    ```sh
    make all
    ```
 
-4. **Install the programs:**
+**Build and install the rpm package :**
+   ```sh
+   make rpm
+   rpm -ivh mqttsleep*.rpm
+   ```
+
+**Or Install the programs:**
    ```sh
    sudo make install
    ```
 
-5. **Clean up build files:**
+**Clean up build files:**
    ```sh
    make clean
    ```
