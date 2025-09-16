@@ -1,7 +1,7 @@
 /*
   mqttsleep.c
   by Olivier Van Rompuy
-  olivier.van.rompuy@iriscorporate.com
+  oli4vr@gmail.com
 
   Usage : mqttsleep [signal] [process]
 
@@ -148,7 +148,7 @@ int main(int argc, char *argv[])
 {
  char m[128];
  if (argc<3) {
-  fprintf(stderr,"mqttwake      by Olivier Van Rompuy (Westpole Belgium)\n");
+  fprintf(stderr,"mqttwake      by Olivier Van Rompuy\n");
   fprintf(stderr,"Syntax : %s Signal ID\n\n",argv[0]);
   return -1;
  }

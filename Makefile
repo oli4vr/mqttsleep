@@ -6,7 +6,10 @@ install:
 	cp mqttwake /bin/mqttwake
 	chmod 4755 /bin/mqttsleep
 	chmod 4755 /bin/mqttwake
+rpm:
+	/bin/bash rpm.sh
 clean:
 	rm mqttsleep
 	rm mqttwake
+	rm *.rpm
 

@@ -1,7 +1,7 @@
 /*
   mqttwake.c
   by Olivier Van Rompuy
-  olivier.van.rompuy@iriscorporate.com
+  oli4vr@gmail.com
 
   Attempts to wake an mqttsleep process.
   Usage : mqttwake [signal] [process]
@@ -133,7 +133,7 @@ int mqtt_wake(char *procnr, char *trmsg)
 }
 
 void printsyntax(char *cmd) {
- fprintf(stderr,"mqttwake      by Olivier Van Rompuy (Westpole Belgium)\n");
+ fprintf(stderr,"mqttwake      by Olivier Van Rompuy\n");
  fprintf(stderr,"Syntax : %s [-i HostnameOrIP] Signal ID\n\n",cmd);
 }
 
